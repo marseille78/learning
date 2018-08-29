@@ -1,9 +1,9 @@
 # [Gulp](https://gulpjs.com/)
 
-* [Основа]()
-* [Методы]()
-* [Примеры]()
-* [Плагины]()
+* [Основа](https://github.com/marseille78/learning/blob/master/building/gulp/README.md#%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%B0)
+* [Методы](https://github.com/marseille78/learning/blob/master/building/gulp/README.md#%D0%9C%D0%B5%D1%82%D0%BE%D0%B4%D1%8B-gulp)
+* [Примеры](https://github.com/marseille78/learning/blob/master/building/gulp/README.md#%D0%9F%D1%80%D0%B8%D0%BC%D0%B5%D1%80%D1%8B)
+* [Плагины](https://github.com/marseille78/learning/blob/master/building/gulp/README.md#%D0%9F%D0%BB%D0%B0%D0%B3%D0%B8%D0%BD%D1%8B)
 
 ## Основа
 
