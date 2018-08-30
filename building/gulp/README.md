@@ -82,6 +82,16 @@ gulp.src('client/templates/*.pug')
     .pipe(gulp.dest('build/html'))
 ```
 
+* `gulp.watch(files, [tasks])` - Метод. Отслеживает изменения в файлах `files`, при изменении которых будут запускаться задачи `tasks`
+
+```javascript
+gulp.task('watch', ['default'], () => {
+    gulp.watch('**/*.less', ['css']);
+    gulp.watch('**/*.js', ['js']);
+    gulp.watch('**/*.html', ['html']);
+});
+```
+
 * `gulp.parallel(tasks)` - Метод. Запускает параллельно список задач `tasks` или функций, выполняющих определенные задачи `(Gulp 4)`
 
 ```javascript
@@ -138,3 +148,18 @@ gulp.task('default', ['html', 'css']);
 * [gulp-less](https://www.npmjs.com/package/gulp-less) - Плагин для работы с `Less`
 * [gulp-sass](https://www.npmjs.com/package/gulp-scss) - Плагин для работы с `Sass/Scss`
 * [gulp-csso](https://www.npmjs.com/package/gulp-csso) - Плагин для минификации `CSS`-файлов
+* [gulp-concat](https://www.npmjs.com/package/gulp-concat) - Плагин для склеивания `CSS` и `JS` файлов
+* [gulp-autoprefixer](https://www.npmjs.com/package/gulp-autoprefixer) - Плагин для автоматического подставления `CSS`-префиксов
+* [gulp-sourcemaps](https://www.npmjs.com/package/gulp-sourcemaps) - Плагин для создания `sourcemaps`
+* [gulp-if](https://www.npmjs.com/package/gulp-if) - Плагин для создания условий выполнения задач
+* [yargs](http://yargs.js.org/) - Библиотека для работы с аргументами при запуске скрипта проекта
+* [gulp-csscomb](https://www.npmjs.com/package/gulp-csscomb) - Плагин для приведения `CSS`-кода к красивому виду
+* [gulp-uglify](https://www.npmjs.com/package/gulp-uglify) - Плагин для минификации `JS`-файлов
+* [gulp-handlebars](https://www.npmjs.com/package/gulp-handlebars) - Плагин для работы с шаблонизатором `Handlebars`
+* [gulp-svgo](https://www.npmjs.com/package/gulp-svgo) - Плагин для оптимизации `SVG`-файлов
+* [gulp-svg-sprites](https://www.npmjs.com/package/gulp-svg-sprites) - Плагин для создания `SVG`-спрайтов
+* [gulp-load-plugins](https://www.npmjs.com/package/gulp-load-plugins) - Модуль для компактного подключения плагинов
+* [gulp-define-module](https://www.npmjs.com/package/gulp-define-module) - Плагин, который преобразует обычные модули в `ES6`-модули
+* [gulp-imagemin](https://www.npmjs.com/package/gulp-imagemin) - Плагин для оптимизации изображений на лету
+* [gulp-wrap](https://www.npmjs.com/package/gulp-wrap) - Библиотека для  оборачивания контента
+* [gulp-task-listing](https://www.npmjs.com/package/gulp-task-listing) - Плагин. Показывает все таски, которые у нас есть в `Gulp`
