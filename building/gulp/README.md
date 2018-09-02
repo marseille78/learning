@@ -15,6 +15,12 @@
 
 `var gulp = require('gulp');`
 
+`gulp` - Запуск из консоли задачи по умолчанию
+
+`gulp taskName` - Запуск из консоли задачи `taskName`
+
+`gulp --tasks` - Вывод в консоли списка задач
+
 ## Методы Gulp
 
 * `gulp.task(name, fn)` - Метод. Задает задачу с именем `name`, которую описывает функция `fn` *(Пример 1)*
@@ -49,7 +55,7 @@ gulp.task('default', ['html', 'css']);
 gulp.task('default', gulp.parallel('images', 'html'));
 ```
 
-* `gulp.src(path)` - Метод. Указывает для каких файлов с маской пути (path) будет использована текущая задача. Возвращает `stream` для последующей обработки выбранных файлов
+* `gulp.src(path)` - Метод. Указывает для каких файлов с маской пути (path) будет использована текущая задача. Возвращает Readable-`stream` для последующей обработки выбранных файлов
   * Маски путей:
     * `*.png` - Файлы с любым именем в текущей папке с расширением `png`
     * `**/*.png` - Файлы с любым именем в любой папке, которая находится в текущей на любой вложенности с расширением `png`
@@ -69,12 +75,16 @@ gulp.task('default', gulp.parallel('images', 'html'));
 
 * `gulp.src('**/*.png', {base: 'images'})` - Метод. Для файлов с любым именем в любой папке, которая находится в текущей на любой вложенности с расширением `png`, за основу будет взята папка `images` - будет использована текущая задача. Возвращает `stream` для последующей обработки выбранных файлов
 
+* `gulp.src('**/*.png', {read: false})` - Метод. Для файлов с любым именем в любой папке, которая находится в текущей на любой вложенности с расширением `png`. Файлы будут находиться, но не будут читаться
+
+* `gulp.src('**/*.png', {since: time})` - Метод. Для файлов с любым именем в любой папке, которая находится в текущей на любой вложенности с расширением `png`. Будут искаться файлы измененные начиная с времени `time`
+
 ```javascript
 gulp.src('client/templates/*.pug')
 ```
 
 
-* `gulp.dest(path)` - Метод. Указывает куда поместить (path) обработанные файлы
+* `gulp.dest(path)` - Метод. Указывает куда поместить (path) обработанные файлы. Возвращает writable-поток
 
 ```javascript
 gulp.src('client/templates/*.pug')
@@ -117,6 +127,8 @@ gulp.task('html', gulp.series(
     }
 ));
 ```
+
+* `gulp.lastRun(task)` - Метод. Возвращает время последнего запуска задачи `task`
 
 ## Примеры
 
@@ -163,3 +175,15 @@ gulp.task('default', ['html', 'css']);
 * [gulp-imagemin](https://www.npmjs.com/package/gulp-imagemin) - Плагин для оптимизации изображений на лету
 * [gulp-wrap](https://www.npmjs.com/package/gulp-wrap) - Библиотека для  оборачивания контента
 * [gulp-task-listing](https://www.npmjs.com/package/gulp-task-listing) - Плагин. Показывает все таски, которые у нас есть в `Gulp`
+* [gulp-mocha](https://www.npmjs.com/package/gulp-mocha) - Плагин для тестирования
+* [gulp-debug](https://github.com/sindresorhus/gulp-debug) - Плагин, который пропускает все через себя и выводит в консоль то, что через него проходит
+* [gulp-newer](https://github.com/tschaub/gulp-newer) - Плагин, для фильтрации при переноске файлов. Он проверяет есть ли уже такой файл, и время его последней модификации. Если файл уже есть и внутри него свежая версия контента, то этот файл пропускается (alias gulp-changed)
+* [gulp-changed](https://github.com/sindresorhus/gulp-changed#readme) - Плагин, для фильтрации при переноске файлов. Он проверяет есть ли уже такой файл, и время его последней модификации. Если файл уже есть и внутри него свежая версия контента, то этот файл пропускается (alias guld-newer)
+* [gulp-remember](https://github.com/ahaurw01/gulp-remember) - Плагин, который запоминает содержимое файлов в своем внутреннем кэше. Для ускорения сборки
+* [gulp-cached](https://github.com/gulp-community/gulp-cached) - Плагин, который запоминает файлы и их содержимое, которые через него проходят и если все совпадает, то файл просто пропускается
+* [browser-sync](https://browsersync.io/) - Live-reload сервер
+* [gulp-notify](https://github.com/mikaelbr/gulp-notify) - Плагин для оповещений пользователя
+* [gulp-plumber](https://github.com/floatdrop/gulp-plumber) - Плагин для того, чтобы `Gulp` не падал каждый раз при ошибке. Позволяет единожды в задаче но на всю ее повесить обработчик ошибки
+* [multipipe](https://github.com/juliangruber/multipipe#readme) - Плагин, объединяющий несколько потоков в один. (Можно поставить обработчик ошибки на один объединенный поток)(alias `stream-combiner2`)
+* [stream-combiner2](https://github.com/substack/stream-combiner2) - Плагин, объединяющий несколько потоков в один. (Можно поставить обработчик ошибки на один объединенный поток)(alias `multipipe`)
+* [through2](https://github.com/rvagg/through2#readme) - Модуль для создания плагинов в `Gulp`
