@@ -14,7 +14,22 @@ const handleRequest = (req, res) => {
 ## Свойства и методы модуля `HTTP`
 
 * [`http.Server`]() - Свойство. Содержит в себе объект сервера. *Честный случай `Event Emitter`*
-* `http.createServer(fn(req, res))` - Метод. Возвращает экземпляр объекта сервера `http.Server`
+* `http.createServer(fn(req, res))` - Метод модуля `http`. Возвращает экземпляр объекта сервера `http.Server` с переданным обработчиком, который автоматически ставится на событие `request`
+* `http.request(opt, fn)` - Метод модуля `http`. Создает `http`-запрос. В качестве аргументов принимает `opt` - объект настроек запроса и `fn` - callback-функцию. При помощи него `Node.JS` может обратиться к другому сайту или серверу
+  * `host`
+  * `hostname`
+  * `port`
+  * `localAddress`
+  * `socketPath`
+  * `method`
+  * `path`
+  * `headers`
+  * `auth`
+  * `agent`
+    * `keep-alive`
+      * `undefined`
+      * `Agent object`
+      * `false`
 
 ## Свойства и методы объекта сервера `http.Server`
 
@@ -23,6 +38,8 @@ const handleRequest = (req, res) => {
 ```javascript
 server.listen(3000, 'localhost', () => console.log('Listening on http://localhost:3000'));
 ```
+
+* `server.close(fn)` - Метод. Разрывает связь с сервером, после чего вызывается необязательный callback `(fn)`
 
 ## События объекта сервера `http.Server`
 * `request` - Событие объекта сервера `http.Server`. Срабатывает при входящем запросе
@@ -50,7 +67,7 @@ response.writeHead(200, {
 
 * `res.setHeader(header, value)` - Метод объекта `res`. Отправляет заголовок `(header)` со значением `(value)`
 * `res.removeHeader(header)` - Метод объекта `res`. Удаляет заголовок `(header)`
-
+* `res.write(data, encoding)` - Метод объекта `res`. Записывает в документ данные `(data)` с необязательным аргументом `(encoding)` - кодировка. Используется при многократной записи, т.к. приходят все новые и новые данные
 * `res.end(str)` - Метод объекта `res`. Отправляет серверу сигнал с необязательным сообщением `(str)` что были отправлены все заголовки и тело ответа; что сервер должен считать это сообщение завершенным
 
 ## Заголовки и их значения
@@ -73,6 +90,7 @@ response.writeHead(200, {
 ## Статусы ответа
 
 * `200` - Успешный ответ `Ok`
+* `400` - Неправильный запрос `Bad Request`
 * `403` - Доступ запрещен
 * `404` - Файл не найден `Not found`
 * `500` - Серверная ошибка
