@@ -1,4 +1,4 @@
-* [JavaScript](js/README.MD)
+* [JavaScript](js/README.md)
 * [Node.JS](node_js/README.md)
 * [Express.JS](express_js/README.md)
 * [Сборщики](building/README.md)
