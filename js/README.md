@@ -1,5 +1,5 @@
-[Главная](../README.md)
+[Главная](../README.md#readme)
 
 # JavaScript
 
-* [Шаблоны проектирования](patterns/README.md)
+* [Шаблоны проектирования](patterns/README.md#readme)
