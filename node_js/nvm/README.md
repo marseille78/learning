@@ -1,3 +1,5 @@
+[Главная](../../README.md#readme) > [Node.JS](../README.md#readme)
+
 # NVM (Node Version Manager)
 
 * `nvm install ver` - Команда, устанавливает `Node JS` версии `ver`
