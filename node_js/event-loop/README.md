@@ -1,4 +1,6 @@
-# Event Loop (Цикл событий) [(Пример)](event-loop/event-loop.js)
+[Главная](../../README.md#readme) > [Node.JS](../README.md#readme)
+
+# Event Loop (Цикл событий)
 
 `process.nextTick(fn)` - Переносит выполнение содержимого callback-функции (fn) в конец текущей итерации цикла синхронных событий
 
