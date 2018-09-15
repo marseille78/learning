@@ -28,9 +28,9 @@ const handleRequest = (req, res) => {
 
 ## Свойства и методы модуля `HTTP`
 
-* [`http.Server`]() - Свойство. Содержит в себе объект сервера. *Честный случай `Event Emitter`*
+* [`http.Server`]() - Свойство. Содержит в себе объект сервера. *Частный случай `Event Emitter`*
 * `http.createServer(fn(req, res))` - Метод модуля `http`. Возвращает экземпляр объекта сервера `http.Server` с переданным обработчиком, который автоматически ставится на событие `request`
-* `http.request(opt, fn)` - Метод модуля `http`. Создает `http`-запрос. В качестве аргументов принимает `opt` - объект настроек запроса и `fn` - callback-функцию. При помощи него `Node.JS` может обратиться к другому сайту или серверу
+* `http.request(opt, fn)` - Метод модуля `http`. Создает `http`-запрос. В качестве аргументов принимает `(opt)` - объект настроек запроса и `(fn)` - callback-функцию. При помощи него `Node.JS` может обратиться к другому сайту или серверу
   * `host`
   * `hostname`
   * `port`
@@ -89,11 +89,11 @@ response.writeHead(200, {
 
 * `Content-Type` - Заголовок. Тип ожидаемого контента *(строка)*
   * `text/plain` - Ответ. Обычный текст
-  * `text/html` - Ответ. `HTML`-файл
-  * `text/css` - Ответ. `CSS`-файл
-  * `application/x-javascript` - Ответ. `JavaScript`-файл
-  * `application/json` - Ответ. `JavaScript`-файл
-  * `application/x-shockwave-flash` - Ответ. `Flash`-файл
+  * `text/html` - Ответ. `HTML`-код
+  * `text/css` - Ответ. `CSS`-код
+  * `application/x-javascript` - Ответ. `JavaScript`-код
+  * `application/json` - Ответ. `JSON`-код
+  * `application/x-shockwave-flash` - Ответ. `Flash`-код
   * `image/png` - Ответ. Изображение `*.png`
   * `image/jpeg` - Ответ. Изображение `*.jpg` или `*.jpeg`
   * `image/gif` - Ответ. Изображение `*.gif`
