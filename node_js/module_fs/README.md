@@ -39,6 +39,7 @@ fs.readFile(__filename, (err, data) => {
 <!-- * `//fs.chmod` - Метод. Изменение прав доступа (change mod) -->
 <!-- * `//fs.symlink` - Метод. Создание символьной ссылки -->
 * `fs.open(file, r, fn(err, fd))` - Открытие файла `(file)` в режиме `(r)` для работы с ним. посредством callback-функции `(fn)` с аргументами `(err)` - объект ошибки, `(fd)` - дескриптор открываемого файла
+* `fs.createWriteStream(file, encoding)` - Метод. Создает и возвращает поток на запись в файл `(file)` с необязательным указанием кодировки в объекте `(encoding)`
 
 ```javascript
 fs.open('myfile', 'r', (err, fd) => {
