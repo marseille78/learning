@@ -1,4 +1,11 @@
-# [Buffer](https://nodejs.org/api/buffer.html)
+[Главная](../../README.md#readme) > [Node.JS](../README.md#readme)
+
+# Класс [Buffer](https://nodejs.org/api/buffer.html)
+
+- [Класс Buffer]
+  - [Методы и свойства `Buffer`]
+
+***
 
 ## Методы и свойства `Buffer`
 
