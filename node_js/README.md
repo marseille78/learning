@@ -15,6 +15,7 @@
 * [Модуль OS (Операционная система)](module_os/README.md#readme)
 * [Модуль PATH](module_path/README.md#readme)
 * [Модуль URL](module_url/README.md#readme)
+* [Модуль Readline](module_readline/README.md#readme)
 * [Модуль UTIL](module_util/README.md#readme)
 * [Buffer](buffer/README.md#readme)
 * [process](process/README.md#readme)

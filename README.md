@@ -4,4 +4,5 @@
 * [Сборщики](building/README.md#readme)
 * [Git](git/README.md#readme)
 * [Работа в командной строке Unix](command_line/README.md#readme)
+* [Работа с проектом](project/README.md#readme)
 * [Текстовые редакторы](code_editor/README.md#readme)
