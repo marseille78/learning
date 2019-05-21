@@ -1,2 +1,2 @@
-* [JavaScript](js/README_JS.md)
-* [React.JS](react/README_REACT.md)
+* [JavaScript](js/README_JS.md#readme)
+* [React.JS](react/README_REACT.md#readme)

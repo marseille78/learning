@@ -9,8 +9,20 @@
 * [JSX]
 * [React-компоненты]
   * [Функциональные компоненты]
+  * [Класс-компоненты]
 * [Передача данных в компонент `props`]
 * [Вывод массива данных]
+* [События]
+  * [Обработка событий]
+  * [События буфера обмена]
+  * [События клавиатуры]
+  * [События фокуса]
+  * [События формы]
+  * [События мыши]
+  * [События выбора]
+  * [События UI]
+  * [События изображения]
+* [Внутреннее состояние компонента]
 
 ## Старт
 
@@ -107,12 +119,30 @@ const App = () => {
 
 ### Функциональные компоненты
 
+*Используеться для простых компонентов, без состояния*
+
 ```javascript
 const Cmp = () => {
   return (
     // Body
   );
 };
+```
+
+### Класс-компоненты
+
+*Используется, когда у компонента есть состояние*
+
+```javascript
+import React, { Component } from 'react';
+
+class Cmp extends Component {
+  render() {
+    return (
+      /* Body... */
+    );
+  }
+}
 ```
 
 ## Передача данных в компонент `props`
@@ -210,4 +240,231 @@ const TodoList = ({ todos }) => {
     </ul>
   );
 };
+```
+
+## События
+
+### Обработка событий
+
+**Обработка события с привязкой `this` по новой возможности без `constructor`**
+
+```javascript
+class Cmp extends Component {
+
+  handleClick = () => { /* Body */ }
+
+  render() {
+    return (
+      <Cmp
+        onClick={ this.handleClick }
+      />
+    );
+  }
+}
+```
+
+**Обработка события с привязкой `this` через `constructor` при помощи строчной функции**
+
+```javascript
+class Cmp extends Component {
+
+  constructor() {
+    super();
+
+    this.handleClick = () => { /* Body */ }
+  }
+
+  render() {
+    return (
+      <Cmp
+        onClick={ this.handleClick }
+      />
+    );
+  }
+}
+```
+
+**Обработка события с привязкой `this` через `constructor` при помощи `bind`**
+
+```javascript
+class Cmp extends Component {
+
+  constructor() {
+    super();
+
+    this.handleClick = this.handleClick.bind(this);
+  }
+
+  handleClick() { /* Body */ }
+
+  render() {
+    return (
+      <Cmp
+        onClick={ this.handleClick }
+      />
+    );
+  }
+}
+```
+
+### События буфера обмена
+
+* `onCopy`
+* `onCut`
+* `onPaste`
+
+### События клавиатуры
+
+* `onKeyDown`
+* `onKeyPress`
+* `onKeyUp`
+
+**Свойства:**
+
+* `<boolean> altKey`
+* `<number> charCode`
+* `<boolean> ctrlKey`
+* `<boolean> getModifierState(key)`
+* `<string> key`
+* `<number> keyCode`
+* `<string> locale`
+* `<number> location`
+* `<boolean> metaKey`
+* `<boolean> repeat`
+* `<boolean> shiftKey`
+* `<number> which`
+
+### События фокуса
+
+* `onFocus`
+* `onBlur`
+
+### События формы
+
+* `onChange`
+* `onInput`
+* `onSubmit`
+* `onInvalid(>= v16)`
+
+### События мыши
+
+* `onClick`
+* `onContextMenu`
+* `onDoubleClick`
+* `onDrag`
+* `onDragEnd`
+* `onDragEnter`
+* `onDragExit`
+* `onDragLeave`
+* `onDragOver`
+* `onDragStart`
+* `onDrop`
+* `onMouseDown`
+* `onMouseEnter`
+* `onMouseLeave`
+* `onMouseMove`
+* `onMouseOut`
+* `onMouseOver`
+* `onMouseUp`
+
+**Свойства:**
+
+* `<boolean> altKey`
+* `<number> button`
+* `<number> buttons`
+* `<number> clientX`
+* `<number> clientY`
+* `<boolean> ctrlKey`
+* `<boolean> getModifierState(key)`
+* `<boolean> metaKey`
+* `<number> pageX`
+* `<number> pageY`
+* `<DOMEventTarget> relatedTarget`
+* `<number> screenX`
+* `<number> screenY`
+* `<boolean> shiftKey`
+
+### События выбора
+
+* `onSelect`
+
+### События UI
+
+* `onScroll`
+
+### События изображения
+
+* `onLoad`
+* `onError`
+
+## Внутреннее состояние компонента
+
+### Установление начального состояния
+
+**Установление начального состояния в компонент (Новая возможность, без конструкора)**
+
+```javascript
+class Cmp extends React.Component {
+
+  state = {
+    done: false
+  }
+
+  render() {
+    return ( /* Body */ );
+  }
+}
+```
+
+**Установление начального состояния в компонент при помощи конструкора**
+
+```javascript
+class Cmp extends React.Component {
+
+  constructor() {
+    super();
+
+    this.state({
+      done: false
+    })
+  }
+
+  render() {
+    return ( /* Body */ );
+  }
+}
+```
+
+### Получение текущего состояния компонента
+
+```javascript
+const currentState = this.state;
+```
+
+### Обновление текущего состояния
+
+**Обновление состояния, которое не зависит от предыдущего**
+
+```javascript
+this.setState({
+  key: resultValue
+});
+```
+
+**Обновление состояния, которое не зависит от предыдущего с callbackk-функцией**
+
+```javascript
+this.setState({
+  key: resultValue
+}, () => { /* Body */ });
+```
+
+**Обновление состояния, которое зависит от предыдущего**
+
+```javascript
+this.setState((state) => {
+  return {
+    key: resultValue
+  }
+});
 ```
