@@ -4,9 +4,9 @@
 
 # React.JS
 
-* [Старт](./README_REACT.md#%D1%81%D1%82%D0%B0%D1%80%D1%82)
+* [Старт](./START.md#readme)
 * [React-элементы]
-* [JSX]
+* [JSX](./README_REACT.md#jsx)
 * [React-компоненты]
   * [Функциональные компоненты]
   * [Класс-компоненты]
@@ -23,20 +23,6 @@
   * [События UI]
   * [События изображения]
 * [Внутреннее состояние компонента]
-
-## Старт
-
-*Запуск простейшего приложения на React.JS:*
-
-```javascript
-import React from 'react';
-import ReactDOM from 'react-dom';
-
-ReactDOM.render(
-  <h1>Hello world</h1>,
-  document.getElementById('root')
-);
-```
 
 ## React-элементы
 
