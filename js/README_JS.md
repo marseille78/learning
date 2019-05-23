@@ -1,7 +1,7 @@
-[Главная](../README.md)
-
-# JavaScript
+[Главная](../README.md#readme)
 
 ***
 
-* [ES6](es6/README_JS_ES6.md)
+# JavaScript
+
+* [ES6](./ES6.md#readme)
