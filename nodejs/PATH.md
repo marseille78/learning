@@ -58,3 +58,22 @@ console.log('path.join: ', path.join('/foo', 'bar', 'baz/asdf', 'quux', '..'));
 console.log('path.sep: ', path.sep);
 // path.sep:  \
 ```
+
+* `path.extname(FILE)` - Метод. Повертає розширення файлу `FILE` разом із `.`
+
+```javascript
+path.extname('index.html')
+// Повертає: '.html'
+
+path.extname('index.coffee.md')
+// Повертає: '.md'
+
+path.extname('index.')
+// Повертає: '.'
+
+path.extname('index')
+// Повертає: ''
+
+path.extname('.index')
+// Повертає: ''
+```
