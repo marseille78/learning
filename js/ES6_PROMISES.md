@@ -6,11 +6,86 @@
 
 **Сторонние библиотеки для работы с AJAX-запросами**
 
+* [*async*] - Зручно використовувати, якщо не можна застосувати *Проміси*
 * [*Axios*]
 * [*Superagent*]
 * [*Got*]
 * [*Request*]
 * [*Reqwest*]
+
+## Promise
+
+*Абстракція, що повертає об'єкт `Promise`, щоб представити кінцевий результат асинхронної операції*
+
+### Стани промісу
+
+* `pending` - Ожидает
+* `resolve` - Виконан. Операція завершилась успішно
+* `reject` - Відхилено
+
+### Створення
+
+```javascript
+new Promise((resolve, reject) => {
+  resolve('ok');
+  // reject('err');
+})
+  .then((result) => {
+    console.log(result);
+  })
+  .catch((err) => {
+    console.error(err);
+  });
+```
+
+* `resolve(VALUE)` - Передає до позитивного результата `then` значення `VALUE`
+* `reject(VALUE)` - Передає до негативного результат `catch` значення `VALUE`
+
+### Методи і властивості
+
+**Проміс відпрацював добре**
+* `Promise.resolve(value)` - Статичний метод. Повертає якесь значення до `then`
+* `Promise.resolve(promise)` - Статичний метод. Повертає `Promise` до `then`
+* `Promise.resolve(thenable)` - Статичний метод. Повертає об'єкт, що має метод `then` **(Ні проміс)** до `then`
+
+**Проміс відпрацював з помилкою**
+* `Promise.reject(value)` - Статичний метод. Повертає якесь значення `value` до `catch`
+
+* `Promise.all(ARR)` - Статичний метод. Повертає проміс, який виконається тоді, коли будуть виконані всі проміси, що передані у вигляді перелічаємого аргумента `ARR`, або відхилено будь яке з переданих повідомлень
+
+```javascript
+const util = require('util');
+const _request = require('request');
+const request = util.promisify(_request);
+
+const url = [
+  'https://loftschool.com/api/v1/courses/streams/1',
+  'https://loftschool.com/api/v1/courses/streams/3',
+  'https://loftschool.com/api/v1/courses/streams/21'
+];
+
+// З масива посилань зробили масив промісів і зробили запити. Результати перейдуть до `then`
+const p = url.map((link) => {
+  return request(link);
+});
+
+Promise
+  .all(p)
+  .then((result) => {
+    result.forEach((item, i) => {
+      console.log(`${i}: ${JSON.parse(item.body).special.course_alias}`);
+    });
+  })
+  .catch((err) => {
+    console.error(err);
+  });
+// 0: android
+// 1: digital-marketing
+// 2: nodejs
+```
+
+* `ps.then()` - Синхронне повернення іншого об'єкту проміса викононаго зі значенням
+* `ps.catch(ERR)` - Метод. Обробка всіх помилок
 
 ## Fetch
 
