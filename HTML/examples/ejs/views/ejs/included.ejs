@@ -1,0 +1,8 @@
+<%# using query %>
+
+<%# Если у элемента pet есть свойство name выполняется первый блок %>
+<% if (pet.name) { %>
+  <li><h2 class="<%= pet.name.length > 4 ? 'long' : 'short' %>"><%= pet.name %></h2></li>
+<% } else { %>
+  <li>empty</li>
+<% } %>

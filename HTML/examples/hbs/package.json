@@ -1,0 +1,24 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "ejs": "nodemon ./ejs.js",
+    "hbs": "nodemon ./hbs.js",
+    "pug": "nodemon ./pug.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ejs": "^2.7.1",
+    "gulp": "^4.0.2",
+    "hbs": "^4.0.4",
+    "pug": "^2.0.4"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

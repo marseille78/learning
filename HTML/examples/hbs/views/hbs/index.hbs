@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    h1 {
+      color: #9b9bb4;
+    }
+    .bold {
+      font-weight: 700;
+    }
+  </style>
+</head>
+<body>
+  <h1>Handlebars Template Engine</h1>
+
+  <ul>
+
+    {{!-- Встроенных хелпер перебора массивов --}}
+    {{!-- this - текущий элемент массива --}}
+    {{!-- @index - Встроенная переменная. Индекс текущего элемента --}}
+    {{!-- else - срабатывает если массив не был передан --}}
+    {{#each d.users}}
+      <li class="{{this.name}}">{{@index}}: {{this.name}}</li>
+    {{else}}
+      <li>Список пуст</li>
+    {{/each}}
+  </ul>
+
+  {{!-- Блочный хелпер --}}
+  {{!-- bold - имя хелпера --}}
+  {{!-- d.story - данные (контекст) --}}
+  {{#bold d.story}}
+    <div>{{intro}}</div>
+  {{/bold}}
+
+  {{!-- {{{}}} - Симуляция new hbs.SafeString (Не нужно экранировать) --}}
+  {{!-- link - имя хелпера --}}
+  {{!-- Vegetables - условный текст (который надо отобразить / контекст) --}}
+  {{!-- href - атрибут --}}
+  <div id="particles">
+    {{{link 'Vegetables' href='/veggies'}}}
+  </div>
+
+  {{#each d.people}}
+    {{!-- Для каждого элемента вызвать Partial "user" --}}
+    {{!-- и передать в него данные из текущей итерации --}}
+    {{> user this}}
+  {{/each}}
+
+  <hr>
+
+  {{!-- Вызов партиции при помощи хелпера "whichPartial" --}}
+  {{> (whichPartial class="block") }}
+
+  <hr>
+</body>
+</html>

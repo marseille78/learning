@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    meta(http-equiv="X-UA-Compatible", content="ie=edge")
+    title Document
+    style.
+      h1 {
+        color: #9b9bb4
+      }
+    
+  body
+    h1 PUG Template Engine
+
+    each user in d.users
+      li
+        strong #{user.name}
+        |
+        | is a #{user.age} years old #{user.species}
+    
+    -var pets = [{name: 'Hazel'}, {name: 'Crys'}, {name: 'Catcher'}, {log: 'xxx'}]
+
+    each pet in pets
+      include ./block

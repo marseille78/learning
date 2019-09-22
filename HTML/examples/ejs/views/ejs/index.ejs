@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    h1 {
+      color: #9b9bb4;
+    }
+  </style>
+</head>
+<body>
+  <h1>EJS Template Engine</h1>
+
+  <%
+    // Вывод в цикле сторонних данных из поля "users"
+    function users_list(user) {
+  %>
+    <li><strong><%= user.name %></strong> is a <%= user.age %> years old <%= user.species %>.</li>
+  <% } %>
+
+  <ul>
+    <% d.users.map(users_list) %>
+  </ul>
+
+  <%
+    // Вывод содержимого простого массива "topics"
+    const topics = [1, 2, 3]
+    topics.forEach((elem) => { 
+    // Неэкранированный вывод элемента
+  %>
+    <li><%= elem %></li>
+  <% }) %>
+
+  <ul>
+    <%
+      const pets = [
+        { name: 'Hazel' },
+        { name: 'Cris' },
+        { name: 'Catcher' },
+        { log: 'xxx' }
+      ]
+    %>
+
+    <% pets.forEach((pet) => { %>
+      <%- include('./included.ejs', {
+        pet: pet
+      }) %>
+    <% }) %>
+  </ul>
+
+  <%- include('./test.ejs', {
+    body: 'Text'
+  }) %>
+</body>
+</html>
