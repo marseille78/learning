@@ -1,0 +1,20 @@
+h1 {
+  color: crimson;
+}
+
+.msg {
+  padding: 20px;
+  background-color: aquamarine;
+  color: darkmagenta;
+}
+
+form {
+  padding: 20px;
+  background-color: bisque;
+  margin-top: 20px;
+  ;
+}
+
+.pic {
+  width: 200px;
+}

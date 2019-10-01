@@ -1,0 +1,21 @@
+extends ../_template
+
+block content
+  h1= title
+
+  //- Если переменная msg пришла - вывести ее
+  if (msg)
+    .msg= msg
+  
+  //- enctype="multipart/form-data" - Важно, если мы загружаем файл
+  //- По умолчанию - x-www-form-urlencoded (для передачи строк)
+  form(action="/" method="post" enctype="multipart/form-data")
+    input(type="text" placeholder="Описание" name="photo_name")
+    input#file(type="file" name="photo")
+    button(type="submit") Загрузить файл
+
+  //- pic - массив картинок
+  if (pic)
+    each item, idx in pic
+      img.pic(src=`${item.src}` alt="")
+      .pic-text= `${idx}: ${item.desc}`

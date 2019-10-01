@@ -102,5 +102,33 @@
 *Избежание повторений*
 
 * Если мы хоитм сказать, что Ян был расстроен..., и я был расстроен. Нам не нужно говорить это в 2-х предложениях. Мы можем это сказать:
-  * Jan was upset and **so was I**.
-  * I can't sing and **neither can Kate.** (= Kate can't sing either)
+  * **`so/neither/nor`** + **`auxiliary/modal verb`** + **`subject`**
+    * Jan was upset and **so was I**. (`so` - Если мы соглашаемся с утвердительным предложением ~ аналог `have too`)
+    * I can't sing and **neither can Kate.** (= Kate can't sing either) (`neither` - если мы соглашаемся с отрицательным предложением) (~ аналог **either**)
+  * **`subject`** + **`auxiliary/modal verb`** + **`too`**
+    * Jake's taken a year off work and **I have too** (Если мы соглашаемся с утвердительным предложением ~ аналог `so`)
+  * **`subject`** + **`negative auxiliary/modal verb`** + **`either`**
+    * I won't come and **my brother won't either** (~ аналог **neither**)
+* Может быть отдельной структурой, когда мы с кем-то соглашаемся.
+  * I've enjoyed myself. **So have I. / I have too (me too - упрощенная форма).**
+  * I don't any money. **Neither/Nor do I. / I don't either.**
+* 
+  * **`I'm`** + **`afraid/believe/expect/hope/think`** + **`so`**
+    * Is she very ill? **I'm afraid so.**
+    * Is Helen joining us later? **I think so.**
+  * **`I don't`** + **`think/expect so`**
+    * Will we get paid this week? **I don't think so.**
+  * **`I hope not`**
+    * Has everything been destroyed? **I hope not.**
+
+* Когда вопрос начинается с `Shall we ... ?` мы используем `Yes, let's / No let's not`
+  * **Shall** we stop for a meal? **Yes, let's.**
+* Когда мы хотим вернуть вопрос обратно (~ А ты?)
+  * Have ever been studied abroad? No, **I haven't. Have you?** (= No, I haven't studied abroad. Have you studied abroad?)
+  * I can speak Mandarin. **Can you?** (= Can you speak Mandarin?)
+* Когда мы отвечаем на заявления, запросы и т.д.
+  * It must be time for lunch. I think **it is.** (= It is time for lunch.)
+  * Please help yourself. Thanks, **I will.** (= I will help myself.)
+* In clauses:
+  * I said I would finish by nine and **I did.** (= I did finish by nine) (Я говорил, что закончу к 9-ти, и сделал это)
+  * I'd be there if **I could.** (= If I could be there)

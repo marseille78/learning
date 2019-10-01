@@ -1,0 +1,16 @@
+extends ../_template
+
+block content
+  .container
+    form#contact(action="/" method="post")
+      h1= title
+      h4 Pls fill the form
+
+      fieldset
+        input(name="name" placeholder="Your name" type="text" required autofocus tabindex="1")
+      fieldset
+        input(name="email" placeholder="Your email" type="email" required tabindex="2")
+      fieldset
+        textarea(name="text" placeholder="Type your message here..." required tabindex='3')
+      fieldset
+        button#contactSubmit(name="submit" type="submit" data-submit="...Sending") Submit
