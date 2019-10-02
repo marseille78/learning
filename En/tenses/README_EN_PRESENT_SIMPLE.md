@@ -1,4 +1,4 @@
-[Грамматика](../README_EN_GRAMMAR.md#README_EN_GRAMMAR)
+[Грамматика](../README_EN_GRAMMAR.md)
 
 # Present Simple
 
