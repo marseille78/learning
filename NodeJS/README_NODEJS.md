@@ -3,6 +3,8 @@
 ## Полезные ресурсы
 
 * `npms.io` - для проверки качества пакетов
+* [imnotgenius.com](http://imnotgenius.com/vvedeniya-v-node-js/) - Уроки
+* [xsltdev.ru/nodejs/tutorial/debugging/](https://xsltdev.ru/nodejs/tutorial/debugging/) - Отладка
 
 ## модули
 
