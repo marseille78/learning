@@ -9,4 +9,4 @@
 
 # Vocabular
 
-* [Связывающие слова]('./vocabular/README_EN_LINKING_WORDS.md)
+* [Связывающие слова](./vocabular/README_EN_LINKING_WORDS.md)
