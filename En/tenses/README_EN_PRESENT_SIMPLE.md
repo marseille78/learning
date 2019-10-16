@@ -13,6 +13,14 @@
 |5|Единичное, конкретное действие в будущем (обычно намеченное к выполнению, запланированное, с указанием времени в будущем, часто с глаголами, обозначающими движение)|He **comes** tomorrow. *Он приезжает завтра.*<br>When **does** the ceremony **take place**? *Когда состоится церемония?*|
 |6|Действие, совершающееся в момент речи с глаголами, не употребляющимися во временах группы **Continuous** *(**to see, to hear, to recognize, to want, to understand** и др.)*|I **see** a ship in the distance. *Я вижу судно вдали.*|
 
+**Маркеры:**
+
+* always
+* never
+* often
+* usually
+* sometimes
+
 [![](https://img.youtube.com/vi/wqoLYg_FpVw/0.jpg)](https://www.youtube.com/watch?v=wqoLYg_FpVw)
 
 [![](https://img.youtube.com/vi/skScrIJnfXU/0.jpg)](https://www.youtube.com/watch?v=skScrIJnfXU)

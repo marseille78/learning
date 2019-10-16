@@ -2,9 +2,14 @@
 
 ## Полезные ресурсы
 
-* `npms.io` - для проверки качества пакетов
+* [Node.JS по полочкам](http://imnotgenius.com/)
 * [imnotgenius.com](http://imnotgenius.com/vvedeniya-v-node-js/) - Уроки
+* [Руководства по Node.js](https://nodeguide.ru/doc/)
+* [Руководство по Node.js `metanit.commetanit.com`](https://metanit.com/web/nodejs/)
+* [Создание первого приложения на Node](https://webref.ru/dev/first-node-app)
+* `npms.io` - для проверки качества пакетов
 * [xsltdev.ru/nodejs/tutorial/debugging/](https://xsltdev.ru/nodejs/tutorial/debugging/) - Отладка
+* [npms.io](https://npms.io/) - Проверка пакетов
 
 ## модули
 
