@@ -6,13 +6,14 @@
 
 * [Present Simple](./tenses/README_EN_PRESENT_SIMPLE.md)
 * [Present Continuous](./tenses/README_EN_PRESENT_CONTINUOUS.md)
-* [Present Perfect](./tenses/README_PRESENT_PERFECT.md)
+* [Present Perfect](./tenses/README_EN_PRESENT_PERFECT.md)
 * [Present Perfect Continuous](./tenses/README_EN_PRESENT_PERFECT_CONTINUOUS.md)
-* [Past Simple]
-* [Past Continuous]
-* [Past Perfect]
-* [Past Perfect Continuous]
-* [Future Simple]
-* [Future Continuous]
-* [Future Perfect]
-* [Future Perfect Continuous]
+* [Past Simple](./tenses/README_EN_PAST_SIMPLE.md)
+* [Past Continuous](./tenses/README_EN_PRESENT_CONTINUOUS.md)
+* [Past Perfect](./tenses/README_EN_PAST_PERFECT.md)
+* [Past Perfect Continuous](./tenses/README_EN_PAST_PERFECT_CONTINUOUS.md)
+* [Future Simple](./tenses/README_EN_FUTURE_SIMPLE.md)
+* [Future Continuous](./tenses/README_EN_FUTURE_CONTINUOUS.md)
+* [Future Perfect](./tenses/README_EN_FUTURE_PERFECT.md)
+* [Future Perfect Continuous](./tenses/README_EN_FUTURE_PERFECT_CONTINUOUS.md)
+* [Условные предложения](./tenses/README_EN_CONDITIONALS.md)

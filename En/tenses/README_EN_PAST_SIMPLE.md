@@ -11,8 +11,6 @@
 |3|В этом случае часто вместо **Past Simple** употребляется оборот **used to + инфинитив**, который также может указывать на длительность периода действия в прошлом|**He used to play** football. *Раньше он играл в футбол.*|
 |4|Последовательные действия в прошлом|He **came** home, **had** his dinner and **went** to bed at once. *Он пришел домой, поужинал и сразу лег спать.*|
 
-<!-- [![](https://img.youtube.com/vi/wqoLYg_FpVw/0.jpg)](https://www.youtube.com/watch?v=wqoLYg_FpVw) -->
-
 ![](https://image.slidesharecdn.com/past-simple-121211114217-phpapp01/95/past-simple-1-1024.jpg?cb=1355718387)
 
 ![](https://image.slidesharecdn.com/past-simple-121211114217-phpapp01/95/past-simple-2-1024.jpg?cb=1355718387)
