@@ -96,3 +96,100 @@ process.stdin.on('data', (chunk) => {
 ## Полезные модули
 
 * `fs-extra` - для копирования, удаления и перемещения файлов
+
+## Express + React.js
+
+1. `express PATH` - Установка **express** в директорию с путем `PATH`
+2. `cd PATH` - Переход в папку с проектом
+3. `npm i` - установка зависимостей **express**
+4. Для проверки условный файл `/routes/users.js` видоизменим
+
+```javascript
+var express = require('express');
+var router = express.Router();
+
+/* GET users listing. */
+router.get('/', function(req, res, next) {
+  res.json([
+    {id: 1, username: "Ruslan"},
+    {id: 2, username: "Helen"}
+  ]);
+});
+
+module.exports = router;
+```
+
+5. `PORT=3001 npm start` - Запуск экспресс на любом порту, кроме **3000** (для **win** `set PORT=3001 && node bin/www`)
+6. `create-react-app client` - Установка приложения **React** в корневую директорию `client`
+7. Установка связи **React.JS** с **Node.JS** в файле `/client/package.json` при помощи ключа `proxy`:
+
+```json
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
+    "react-scripts": "3.2.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "proxy": "http://localhost:3001", // Вставка связи
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
+```
+
+8. Видоизменим файл `/client/src/App.js`
+
+```javascript
+import React, { Component } from 'react';
+import './App.css';
+
+class App extends Component {
+  state = { users: [] }
+
+  componentDidMount() {
+    fetch('/users')
+      .then((res) => res.json())
+      .then((users) => this.setState({ users }));
+  }
+
+  render() {
+    return (
+      <div className="App">
+        <h1>Users</h1>
+        <ul>
+          {
+            this.state.users.map((user) => (
+              <li key={ user.id }>{ user.username }</li>
+            ))
+          }
+        </ul>
+      </div>
+    );
+  }
+}
+
+export default App;
+```
+
+9. Запустим **React** на `3000`-м порту, предварительно запустив **Express** на `3001`-м

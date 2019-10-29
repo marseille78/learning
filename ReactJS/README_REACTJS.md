@@ -22,3 +22,16 @@ ReactDOM.render(
   document.getElementById('root')
 );
 ```
+
+## Объект React
+
+**React.Fragment**
+
+Виртуальный блок-держатель, который оборачивает JSX-содержимое не имеющее единого оборачивающего блока
+
+```jsx
+<React.Fragment>
+  <div/>
+  <div/>
+</React.Fragment>
+```
