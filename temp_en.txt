@@ -449,3 +449,395 @@ Can I book a table? (Мне можно забронировать столик?)
 Could we have the menu, please? -							Не могли бы Вы принести нам меню, пожалуйста?
 Can I have the bill, please? -								Не могли бы Вы принести мне счёт, пожалуйста?
 As you know, ... -                                          Как вы знаете, ...
+
+
+
+
+
+a bit of something - немного чего-то
+to be honest ... - Если честно ...
+I'm afraid ... - Боюсь ...
+and so on - и так далее
+I mean (пример) - Я имею в виду (пример)
+well, I suppose ... - ну, я полагаю ...
+hardly ever - Почти никогда
+always - всегда
+sometimes - иногда
+nowadays - В наше время
+these days - в эти дни
+when I was - когда я был
+to be in shape - чтобы быть в форме
+mainly - в основном
+I'd rather do something - Я бы предпочел сделать что-нибудь
+to form a conclusion - составить заключение
+
+
+
+
+
+to consider (считать ~ иметь мнение, учитывать) - рассмотреть
+reliable and supportive - надежный и поддерживающий
+to be down in the dumps (to be sad) - быть на свалке (грустить)
+to stick up for sb - заступиться за кого-л.
+to cheer sb up - подбодрить
+be considered to be sth - считаться чем-то
+whenever - когда бы ни
+as a proverb says - как гласит пословица
+a friend in need is a friend indeed - друг познается в беде
+mutual friends - общие друзья
+for several reasons - по нескольким причинам
+be in charge of - быть ответственным за
+You may not believe it, but ... - Вы можете не верить этому, но ...
+
+
+
+
+
+athletic - Спортивное
+creative - творческий
+adventurous (авантюрный) - авантюрный (авантюрный)
+sociable - общительный
+tidy - аккуратный
+intelligent - умный
+patient (терпеливый, сдержанный) - пациент (терпеливый, сдержанный)
+supportive (подддерживающий) - поддерживающий (подддерживающий)
+calm - спокойный
+funny - веселая
+hardworking - трудолюбивая
+noisy - шумный
+selfish - эгоистичный
+shy - застенчивый
+warm - теплый
+serious - серьезный
+caring - заботливая
+considerate - внимательный
+lazy - ленивый
+competitive - конкурентный
+stressed - подчеркнул
+quiet - тихий
+unfriendly - недружественный
+excitable (по любому поводу смеется, эмоциональный) - возбудимый (по любому поводу смеется, эмоциональный)
+ - 
+# Смягчение негативной характеристики - # Смягчение негативной характеристики
+a bit - немного
+a little - маленький
+rather - скорее
+ - 
+# Усиление положительной характеристики - # Усиление положительной характеристики
+very - очень
+really - действительно
+ - 
+neighbourhood (окружение) - окрестности
+interlocutor - собеседник
+competition - конкуренция
+to crack jokes - шутить
+to appreciate - ценить
+to outline - В общих чертах
+ - 
+# Essay - # Сочинение
+As evidence of this - В доказательство этого
+healthcare - здравоохранение
+education - образование
+increase in the standard of living - повышение уровня жизни
+quality of life in social terms - качество жизни в социальном плане
+to argue that - утверждать, что
+to change working conditions - изменить условия труда
+the large leisure industries - крупные индустрии отдыха
+it can also be argued that - можно также утверждать, что
+loss - потеря
+but overall - но в целом
+sense of community - Чувство общности
+nevertheless - тем не менее
+ - 
+# Addition - # Дополнение
+moreover - Кроме того
+furthermore - более того
+in addition - к тому же
+also - также
+as well as - также как и
+besides - Кроме того
+ - 
+# Contrast - # Контраст
+despite - несмотря на
+on the other hand - с другой стороны
+however - тем не мение
+nevertheless - тем не менее
+ - 
+# Introdusing examples - # Вводные примеры
+as evidence for this - в качестве доказательства этого
+for example - например
+for instance - например
+namely - а именно
+as an illustration - как иллюстрация
+to illustrate - проиллюстрировать
+such as - такие как
+ - 
+# Concession (продолжение) - # Концессия (продолжение)
+therefore - следовательно
+hence - следовательно
+thus - таким образом
+ - 
+# Summing up - # Подводя итоги
+in conclusion - в заключение
+to conclude - заключить
+to sum up - подводить итоги
+overall - в целом
+ - 
+# Cause and effect - # Причина и следствие
+as a result - в следствии
+one reason for this is something - одна из причин этого
+
+
+
+
+
+brick - кирпич
+to manufacture - для изготовления
+building industry - строительная индустрия
+to report - сообщить
+feature - характерная черта
+comparison - сравнение
+relevant - актуальны
+ - 
+digger - экскаватор
+clay - глина
+metal grid - металлическая сетка
+roller - ролик
+sand - песок
+water - воды
+mould - плесень
+write cutter - написать резак
+brick - кирпич
+drying oven - сушильная печь
+24 hrs - 24 часа
+kiln - печи
+to moderate - модерировать
+high - высоко
+cooling chamber - камера охлаждения
+packaging - упаковка
+delivery - Доставка
+countryside - сельская местность
+radically - радикально
+appearance - внешность
+surgery - хирургия
+provider - поставщик
+to adjust - отрегулировать
+to alter - изменить
+to deteriorate - ухудшаться
+to exchange - обменять
+to fade - увядать
+to reduce - уменьшить
+to renovate - обновить
+to swell - раздуваться
+to switch - переключить
+to vary - варьироваться
+ - 
+ - 
+### - ###
+ - 
+oil - масло
+OPEC - ОПЕК
+non-OPEC - не входящие в ОПЕК
+to report - сообщить
+forecast - прогноз
+increase - увеличение
+most of all - больше всего
+
+
+
+
+
+добывать - to mine
+помещать - put
+находиться - be
+подвергаться - be subjected to
+воздействие - impact
+состоять из - to consist of
+охлаждаться - cool
+показатель - indicator
+скорее всего - most likely
+
+
+
+
+
+to undergo - пройти
+to undergo sweeping changes - подвергнуться радикальным изменениям
+something seems to have become ... - кажется, что-то стало ...
+bustling - суетливый
+large bustling city - большой шумный город
+to boast (of) - хвастаться
+way more - гораздо больше
+much more - гораздо более
+much vaster - намного шире
+taking into account - принимая во внимание
+this fact is considered to be - этот факт считается
+burning issue - актуальная проблема
+a variety of - разнообразие
+thus, it may be inferred that ... - Таким образом, можно сделать вывод, что ...
+it may be inferred that ... - можно сделать вывод, что ...
+to claim - требовать
+by doing something - делая что-то
+by using something - используя что-то
+to sum up - подводить итоги
+in the light of the evidence - в свете доказательств
+otherwise - в противном случае
+unless - если
+to get out of control - выйти из под контроля
+Unless something is done - Если что-то не сделано
+is far higher - намного выше
+ - 
+********************************************** - **********************************************
+# Time expression - # Выражение времени
+Over the last few years   Pr.Perfect - За последние несколько лет Pr.Perfect
+In the last decade   Pr.Perfect - В последнее десятилетие Pr.Perfect
+Today   Pr.Simple - Сегодня пр.простой
+Pr.Continuous   all the time - Пр. Непрерывный все время
+Recently   Pr.Perfect - Недавно Pr.Perfect
+Nowadays/These days   Pr.Simple - В наши дни / В эти дни пр. Просто
+ - 
+# Useful phrases - # Полезные фразы
+It is clear that ... is becoming more popular. - Понятно, что ... становится все популярнее.
+It has become less common for people to ... - Это стало менее распространенным для людей ...
+The problem is becoming worse and worse. - Проблема становится все хуже и хуже.
+There is no doubt that ... - Без сомнения ...
+Most people say ... - Большинство людей говорят ...
+It has become evident that ... - Стало очевидным, что ...
+ - 
+# Conclusion - # Заключение
+Unless ... will ... - Если только ... не будет ...
+ - 
+********************************************** - **********************************************
+ - 
+# Start - # Начало
+Believe it or not, ... - Хочешь верь, хочешь нет, ...
+You may not believe it, but ... - Вы можете не верить этому, но ...
+It may sound strange, but ... - Это может звучать странно, но ...
+The surprising thing is ... - Удивительная вещь ...
+Not surprisingly, ... - Не удивительно, ...
+Surprisingly, ... - Как ни странно, ...
+Oddly enough, ... - Довольно странно, ...
+Funnily enough, ... - Как ни странно, ...
+ - 
+# End with - # Конец
+Generally, ... - В общем, ...
+By and large, ... - В общем и целом, ...
+As a rule, ... - Как правило, ...
+Normally, ... - Как обычно, ...
+Usually, ... - Обычно, ...
+On the whole, ... - В целом, ...
+ - 
+grumpy - сердитый
+
+
+
+
+
+talk to - говорить с
+look at - посмотри на
+shout at - кричать на
+look after - присматривать за
+have breakfast - завтракать
+walk the dog - выгуливать собаку
+answer the phone - ответь на звонок
+criticize - критиковать
+movie - кино
+cartoon - мультфильм
+athlete - спортсмен
+make a noise - шуметь
+to convey - передавать
+to paraphrase - перефразировать
+strategy - стратегия
+relevant - актуальны
+useful - полезным
+user-friendly - дружественный интерфейс
+inspiring - вдохновляющий
+to broaden your horizons/outlook - расширить свой кругозор / перспективы
+advert - объявление
+advertisement - рекламное объявление
+between - между
+among (среди, между многих) - среди
+to type - печатать
+to write by hand - писать от руки
+individuals - индивидуумы
+literate - грамотный
+being computer literate - быть компьютерным грамотным
+thankfully - благодарно
+technological progress - технологический прогресс
+junk food - нездоровая пища
+ - 
+===================================== - =====================================
+ - 
+Working full time - Работая полный рабочий день
+to recharge the battery (for me) (idiom) - перезарядить батарею (для меня) (идиома)
+to have a lie-in (валяться в кровати) - валяться в кровати
+to be on top of the world (быть без ума от счастья) - быть на вершине мира (быть без ума от счастья)
+I tend to do sth (У меня тенденция делать что-то) - Я склонен делать что-то
+it's not my cup of tea (это не по мне) - это не моя чашка чая (это не по мне)
+It's my cup of tea (это по мне) - Это моя чашка чая (это по мне)
+I would rather do sth (я бы лучше/скорее/предпочел сделал что-то) - Я бы предпочел сделать что-то вроде этого (я бы лучше / скорее / предпочел сделал что-то)
+it depends on - это зависит от
+mood - настроение
+to stay alone - оставаться одному
+however - тем не мение
+nevertheless - тем не менее
+frankly speaking - откровенно говоря
+a tough question - сложный вопрос
+a difficult question - сложный вопрос
+it doesn't really matter - это не имеет значения
+it doesn't really matter for me - это не имеет большого значения для меня
+at least - по крайней мере
+I feel comfortable in both situations - Я чувствую себя комфортно в обеих ситуациях
+to tell you the truth, - сказать тебе правду,
+something has my city changed - что-то изменило мой город
+it hasn't something changed that much - это ничего не изменило
+still - Все еще
+I don't go out as much as I used to - Я не выхожу так часто, как раньше
+as much as I used to - столько, сколько я имел обыкновение
+Mainly - В основном
+the hustle and bustle of something (idiom) - суета чего-то (идиома)
+Definitely, it has. (ну конечно. ~ Ответ) - Определенно, это так. (ну конечно. ~ Ответ)
+collocation - словосочетание
+prefer something to something - предпочитаю что-то чему-то
+to have a tendency to do something - иметь тенденцию что-то делать
+moreover - Кроме того
+as I said - как я сказал
+to maintain - поддерживать
+abode - местопребывание
+home - Главная
+house - жилой дом
+ - 
+/* Essay */ - /* Сочинение */
+ - 
+necessity of something - необходимость чего-то
+I tend to think - Я склонен думать
+convenience - удобство
+numerous - многочисленные
+it is of the utmost importance to do something - крайне важно сделать что-то
+it is crucial for something - это важно для чего-то
+importance - важность
+it is also argued that - также утверждается, что
+foremost - в первую очередь
+first and foremost - в первую очередь
+it is generally agreed that - общепринято, что
+survey - опрос
+to carry out by the university - проводить в университете
+interviewee - интервьюируемый
+neglect - пренебрежение
+the question cannot be neglected - этим вопросом нельзя пренебрегать
+alongside (параллельно) - рядом
+it is apparent that - очевидно, что
+to prevent somebody from doing something (не дает кому-то что-то сделать) - не дать кому-то что-то сделать (не дает кому-то что-то сделать)
+therefore - следовательно
+something is imperative for somebody - что-то необходимо для кого-то
+otherwise - в противном случае
+thus - таким образом
+Not only does it do something but that also (Это не только делает что-то, но ...) - Это не только делает что-то, но и это тоже.
+day after day - день за днем
+year after year - год за годом
+he is my age - он моего возраста
+a season of the year - время года
+season - сезон
+The date falls on Wednesday - Эта дата выпадает на среду
+an egg stage - инкубационный период
+a book fair - книжная ярмарка
